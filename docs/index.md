@@ -1,25 +1,18 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: 瓜兵速成指南
 
 hero:
-  name: "Nwpu Manual"
-  text: "Nwpu manual for newcomers"
-  tagline: My great project tagline
+  name: "瓜兵速成指南"
+  text: "2024版"
+  tagline: 洛璃 &《瓜兵速成指南》修订小组
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: 开启瓜大生活
+      link: /foreword
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 ---
 
