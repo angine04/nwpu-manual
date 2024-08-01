@@ -1,5 +1,8 @@
 import { defineConfig, HeadConfig } from "vitepress";
 import { sidebarSettings } from "./sidebar";
+import mathjax3 from "markdown-it-mathjax3";
+
+const customElements = ["mjx-container","mjx-assistive-mml"];
 
 let headSettings: HeadConfig[] | undefined;
 
@@ -52,5 +55,17 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/angine04/nwpu-manual" },
     ],
+  },
+  markdown: {
+    config: (md) => {
+      md.use(mathjax3);
+    },
+  },
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => customElements.includes(tag),
+      },
+    },
   },
 });

@@ -11,6 +11,7 @@ export function sidebarSettings() {
     },
     {
       text: "录取入学篇",
+      collapsed: true,
       items: [
         {
           text: "Q1. 如何查询我是否已经被录取了？",
@@ -84,8 +85,41 @@ export function sidebarSettings() {
           text: "Q18. 同一个上网账户最多同时可以连接多少个设备？",
           link: "/admission/maximum-devices",
         },
+        {
+          text: "Q19. 学校的日常作息是怎么样的？",
+          link: "/admission/daily-schedule",
+        },
+        {
+          text: "Q20. 学校有没有表白墙？",
+          link: "/admission/love-wall",
+        },
+        {
+          text: "Q21. 如果对学校有意见/投诉，我该怎么进行反馈？",
+          link: "/admission/complaint",
+        },
       ],
+    },
+    {
+      text: "学习生活篇",
       collapsed: true,
+      items: [
+        {
+          text: "Q22. 我该怎么努力保研？挂科了还能保研吗？",
+          link: "/study/graduate-recommendation",
+        },
+        {
+          text: "Q23. 学分绩是怎样进行计算的？",
+          link: "/study/gpa",
+        },
+        {
+          text: "Q24. 综测是什么？有什么用？怎么加综测分？",
+          link: "/study/comprehensive-evaluation",
+        },
+        {
+          text: "Q25. 选课机制是怎样的？",
+          link: "/study/course-selection",
+        },
+      ],
     },
   ];
 }
