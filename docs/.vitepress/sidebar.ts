@@ -4,7 +4,7 @@ export function sidebarSettings() {
       items: [
         { text: "修订说明", link: "/changelog" },
         {
-          text: "Q0：本篇指南内容涉及哪些方面？主要面向对象是谁？",
+          text: "Q0. 本篇指南内容涉及哪些方面？主要面向对象是谁？",
           link: "/foreword",
         },
       ],
@@ -233,5 +233,15 @@ export function sidebarSettings() {
         },
       ],
     },
+    // {
+    //   text: "学生社团篇",
+    //   collapsed: true,
+    //   items: [
+    //     {
+    //       text: "Q54. 大学中班委有什么用？我应该报名担任班委吗？",
+    //       link: "/organization/class-committee",
+    //     },
+    //   ],
+    // },
   ];
 }

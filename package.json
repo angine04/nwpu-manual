@@ -21,6 +21,7 @@
   "dependencies": {
     "eslint": "9.x",
     "markdown-it-mathjax3": "^4.3.2",
+    "medium-zoom": "^1.1.0",
     "vercel": "^35.2.2"
   }
 }

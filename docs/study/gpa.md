@@ -1,3 +1,10 @@
+---
+head:
+  - - link
+    - rel: stylesheet
+      href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
+---
+
 # Q23. 学分绩是怎样进行计算的？
 
 （详细参见附件3）我校采用国际通行的4分制学分绩点计算办法。按照西北工业大学本科生课程成绩管理有关规定，课程百分制成绩、等级制成绩和绩点的换算关系如下：
