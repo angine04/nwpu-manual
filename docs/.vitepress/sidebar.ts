@@ -133,7 +133,7 @@ export function sidebarSettings() {
         },
         {
           text: "Q29. 我有转专业的想法，大一应该怎么选课？按哪个专业的培养方案来选择？",
-          link: "/study/change-major",
+          link: "/study/course-selection-change-major",
         },
         {
           text: "Q30. 什么时候可以进行课程退课？",
@@ -194,6 +194,42 @@ export function sidebarSettings() {
         {
           text: "Q44. 学校的跑步打卡是什么意思？需要刷脸吗？",
           link: "/study/running",
+        },
+        {
+          text: "Q45. 体测不及格怎么办？体测不及格对绩点有影响吗？还能保研吗？",
+          link: "/study/pe-fail",
+        },
+        {
+          text: "Q46. 体育理论考试在什么时候进行？难吗？",
+          link: "/study/pe-theory-exam",
+        },
+        {
+          text: "Q47. 早/晚自习定要上吗？",
+          link: "/study/self-study",
+        },
+        {
+          text: "Q48. 志愿时长是什么？重要吗？在哪里刷？",
+          link: "/study/volunteer",
+        },
+        {
+          text: "Q49. 我在大学应该怎么入党入团呀？",
+          link: "/study/party",
+        },
+        {
+          text: "Q50. 怎么样我才能拿到奖学金呢？",
+          link: "/study/scholarship",
+        },
+        {
+          text: "Q51. 夏季学期是什么？我应该选课参加吗？",
+          link: "/study/summer-term",
+        },
+        {
+          text: "Q52. 转专业和大类分流在什么时候进行？是否会重新分配行政班？是否会重新更换宿舍？",
+          link: "/study/change-major",
+        },
+        {
+          text: "Q53. 什么时候可以转专业？转专业有什么具体要求吗？往年多少绩点可以转到我心仪的专业？",
+          link: "/study/change-major-requirements",
         },
       ],
     },
