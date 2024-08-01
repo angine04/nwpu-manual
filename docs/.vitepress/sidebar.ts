@@ -117,7 +117,83 @@ export function sidebarSettings() {
         },
         {
           text: "Q25. 选课机制是怎样的？",
-          link: "/study/course-selection",
+          link: "/study/course-selection-rules",
+        },
+        {
+          text: "Q26. 选课的意愿值是怎么进行计算的？",
+          link: "/study/casino",
+        },
+        {
+          text: "Q27. 选课应该遵循什么原则？",
+          link: "/study/course-selection-principle",
+        },
+        {
+          text: "Q28. 我有一门课没能选上，怎么进行补选？应该去哪里找到老师的联系方式？",
+          link: "/study/course-selection-fail",
+        },
+        {
+          text: "Q29. 我有转专业的想法，大一应该怎么选课？按哪个专业的培养方案来选择？",
+          link: "/study/change-major",
+        },
+        {
+          text: "Q30. 什么时候可以进行课程退课？",
+          link: "/study/drop-course",
+        },
+        {
+          text: "Q31. 上课所用的课本应该到哪里去买？",
+          link: "/study/textbook",
+        },
+        {
+          text: "Q32. 课程有安排期中期末考试吗？",
+          link: "/study/exam",
+        },
+        {
+          text: "Q33. 我该怎么获得往年试题（复习资料）？",
+          link: "/study/past-exam",
+        },
+        {
+          text: "Q34. 老师在课程结束的时候会画重点吗？",
+          link: "/study/important-points",
+        },
+        {
+          text: "Q35. 考试之前有考前答疑吗？",
+          link: "/study/office-hours",
+        },
+        {
+          text: "Q36. “网课”是什么？没有按时完成学习（考试）会挂科吗？",
+          link: "/study/online-course",
+        },
+        {
+          text: "Q37. 我为什么没能找到网课在哪里学习？",
+          link: "/study/online-course-location",
+        },
+        {
+          text: "Q38. 请问缓考有平时分吗？会影响绩点吗？",
+          link: "/study/deferred-exam",
+        },
+        {
+          text: "Q39. 请问补考通过了还算挂科吗，补考通过之后绩点怎么计算呢？",
+          link: "/study/make-up-exam",
+        },
+        {
+          text: "Q40. 请问重修之后绩点有影响吗？",
+          link: "/study/re-take",
+        },
+        {
+          text: "Q41. 我可以随意修读中级以上体育课程吗？",
+          link: "/study/advanced-pe",
+        },
+        {
+          text: "Q42. 体育课的成绩组成是怎样的？体育课成绩与体测成绩有关联吗？",
+          link: "/study/pe",
+        },
+        {
+          text: "Q43. 学校怎么安排体测？",
+          link: "/study/pe-exam",
+        },
+        {
+          text: "Q44. 学校的跑步打卡是什么意思？需要刷脸吗？",
+          link: "/study/running",
         },
       ],
     },
