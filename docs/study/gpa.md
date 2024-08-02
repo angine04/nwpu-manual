@@ -65,7 +65,7 @@
             <td colspan="3">良好</td>
             <td colspan="3">中等</td>
             <td>及格</td>
-            <td></td>
+            <td>不及格</td>
         </tr>
         <tr>
             <td colspan="3">4.0</td>

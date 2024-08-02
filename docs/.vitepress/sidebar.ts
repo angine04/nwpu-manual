@@ -251,5 +251,47 @@ export function sidebarSettings() {
         },
       ],
     },
+    {
+      text: "日常生活篇",
+      collapsed: true,
+      items: [
+        {
+          text: "Q57. 常去的教学区域在哪里？",
+          link: "/life/teaching-area",
+        },
+        {
+          text: "Q58. 学校什么时候供应热水？",
+          link: "/life/bath-water",
+        },
+        {
+          text: "Q59. 学校的水电费、网费的收费模式是怎么样的？",
+          link: "/life/utility-bill",
+        },
+        {
+          text: "Q60. 宿舍有限电吗？可以使用大功率电器吗？",
+          link: "/life/electricity",
+        },
+        {
+          text: "Q61. 宿舍可以安装洗衣机吗？？",
+          link: "/life/launderette",
+        },
+        {
+          text: "Q62. 一卡通丢失怎么办？在哪里可以补办吗？",
+          link: "/life/card-loss",
+        },
+        {
+          text: "Q63. 学校内部可以点外卖吗？",
+          link: "/life/delivery",
+        },
+        {
+          text: "Q64. 学校内部的快递点在哪里？",
+          link: "/life/express",
+        },
+        {
+          text: "Q65. 学校哪里有打印店打印材料？",
+          link: "/life/printing",
+        },
+      ],
+    },
   ];
 }
