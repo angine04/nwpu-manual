@@ -233,15 +233,23 @@ export function sidebarSettings() {
         },
       ],
     },
-    // {
-    //   text: "学生社团篇",
-    //   collapsed: true,
-    //   items: [
-    //     {
-    //       text: "Q54. 大学中班委有什么用？我应该报名担任班委吗？",
-    //       link: "/organization/class-committee",
-    //     },
-    //   ],
-    // },
+    {
+      text: "学生社团篇",
+      collapsed: true,
+      items: [
+        {
+          text: "Q54. 大学中班委有什么用？我应该报名担任班委吗？",
+          link: "/organization/class-committee",
+        },
+        {
+          text: "Q55. 我怎么加入学生会（社团）？学生会（社团）可以加入多个吗？",
+          link: "/organization/student-union",
+        },
+        {
+          text: "Q56. 我可以从哪里找到社团的相关信息？",
+          link: "/organization/club-information",
+        },
+      ],
+    },
   ];
 }

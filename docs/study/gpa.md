@@ -1,9 +1,3 @@
----
-head:
-  - - link
-    - rel: stylesheet
-      href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
----
 
 # Q23. 学分绩是怎样进行计算的？
 
@@ -85,9 +79,13 @@ head:
 
 ## 绩点计算办法
 
+<div style="overflow-x: auto">
+
 $${学分绩点} = {课程绩点} \times {课程学分}$$
 
 $${\rm 平均学分绩点（GPA）} = \frac{\sum 学分绩点}{\sum 课程学分}$$
+
+</div>
 
 ## 绩点计算的有关说明
 

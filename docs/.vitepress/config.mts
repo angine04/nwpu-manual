@@ -10,14 +10,6 @@ if (process.env.NODE_ENV === "production") {
   headSettings = [
     ["link", { rel: "icon", href: "/favicon.png", type: "image/png" }],
     [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css",
-        type: "text/css",
-      },
-    ],
-    [
       "script",
       {
         defer: "",
@@ -37,14 +29,6 @@ if (process.env.NODE_ENV === "production") {
 } else {
   headSettings = [
     ["link", { rel: "icon", href: "/favicon.png", type: "image/png" }],
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css",
-        type: "text/css",
-      },
-    ],
   ];
 }
 
@@ -79,6 +63,11 @@ export default defineConfig({
         text: "学习生活篇",
         link: "/study/graduate-recommendation",
         activeMatch: "/study/",
+      },
+      {
+        text: "学生社团篇",
+        link: "/organization/class-committee",
+        activeMatch: "/organization/",
       },
     ],
 

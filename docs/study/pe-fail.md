@@ -1,14 +1,13 @@
----
-head:
-  - - link
-    - rel: stylesheet
-      href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
----
+
 
 # Q45. 体测不及格怎么办？体测不及格对绩点有影响吗？还能保研吗？
 本科生的最终体测成绩计算公式为：
 
+<div style="overflow-x: auto">
+
 $$\frac{\sum 第1、2、3次体测成绩}{3}\times 50\%+第4次体测成绩\times 50\%$$
+
+</div>
 
 按照规定，本科生毕业体测合格成绩为50分，不足50分不予以毕业。
 
