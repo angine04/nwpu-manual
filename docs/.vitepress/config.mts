@@ -38,7 +38,7 @@ export default defineConfig({
   titleTemplate: "瓜兵速成指南",
   description:
     "瓜兵速成指南是一个简短的指南，主要分为录取入学篇、学习生活篇、学生社团篇、日常生活篇、学科竞赛篇、日常出行篇六部分，对大一新生入校第一年可能遇到的若干常见问题，并给出解答。",
-  lang: "zh-CN",
+  lang: "zh",
   cleanUrls: true,
   head: headSettings,
   locales: {
