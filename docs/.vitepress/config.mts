@@ -55,30 +55,40 @@ export default defineConfig({
       { text: "主页", link: "/" },
       { text: "修订说明", link: "/changelog" },
       {
-        text: "录取入学篇",
-        link: "/admission/query-admission-status",
-        activeMatch: "/admission/",
+        text: "正文",
+        link: "/foreword",
+        activeMatch: "/foreword|admission|study|organization|life|contest|transportation/",
       },
-      {
-        text: "学习生活篇",
-        link: "/study/graduate-recommendation",
-        activeMatch: "/study/",
-      },
-      {
-        text: "学生社团篇",
-        link: "/organization/class-committee",
-        activeMatch: "/organization/",
-      },
-      {
-        text: "日常生活篇",
-        link: "/life/teaching-area",
-        activeMatch: "/life/",
-      },
-      {
-        text: "学科竞赛篇",
-        link: "/contest/base",
-        activeMatch: "/contest/",
-      },
+      // {
+      //   text: "录取入学篇",
+      //   link: "/admission/query-admission-status",
+      //   activeMatch: "/admission/",
+      // },
+      // {
+      //   text: "学习生活篇",
+      //   link: "/study/graduate-recommendation",
+      //   activeMatch: "/study/",
+      // },
+      // {
+      //   text: "学生社团篇",
+      //   link: "/organization/class-committee",
+      //   activeMatch: "/organization/",
+      // },
+      // {
+      //   text: "日常生活篇",
+      //   link: "/life/teaching-area",
+      //   activeMatch: "/life/",
+      // },
+      // {
+      //   text: "学科竞赛篇",
+      //   link: "/contest/",
+      //   activeMatch: "/contest/",
+      // },
+      // {
+      //   text: "出行交通篇",
+      //   link: "/transportation/gate",
+      //   activeMatch: "/transportation/",
+      // },
     ],
 
     sidebar: sidebarSettings(),
