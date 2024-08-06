@@ -384,5 +384,39 @@ export function sidebarSettings() {
         },
       ],
     },
+    {
+      text: "出行交通篇",
+      collapsed: true,
+      items: [
+        {
+          text: "Q88. 长安校区有哪些大门（出口）？",
+          link: "/transportation/gate",
+        },
+        {
+          text: "Q89. 从学校前往市区的常见交通方式？",
+          link: "/transportation/methods",
+        },
+        {
+          text: "Q90. 怎么乘坐校车？校车的停靠点在哪里？",
+          link: "/transportation/bus",
+        },
+        {
+          text: "Q91. 校门口的到处拉人的车可以乘坐吗？贵吗？不想乘坐会不会生拉硬拽？",
+          link: "/transportation/black-taxi",
+        },
+        {
+          text: "Q92. 高铁购买学生票的流程是怎么样的？便宜多少钱？",
+          link: "/transportation/train-discount",
+        },
+        {
+          text: "Q93. 从长安校区前往西安站/西安北站有哪些乘车路线?",
+          link: "/transportation/train-station",
+        },
+        {
+          text: "Q94. 本科生在读证明如何办理？",
+          link: "/transportation/proof",
+        },
+      ],
+    },
   ];
 }
