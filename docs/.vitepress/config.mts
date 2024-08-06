@@ -69,6 +69,16 @@ export default defineConfig({
         link: "/organization/class-committee",
         activeMatch: "/organization/",
       },
+      {
+        text: "日常生活篇",
+        link: "/life/teaching-area",
+        activeMatch: "/life/",
+      },
+      {
+        text: "学科竞赛篇",
+        link: "/contest/base",
+        activeMatch: "/contest/",
+      },
     ],
 
     sidebar: sidebarSettings(),
