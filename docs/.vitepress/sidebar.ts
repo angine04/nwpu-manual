@@ -288,8 +288,99 @@ export function sidebarSettings() {
           link: "/life/express",
         },
         {
-          text: "Q65. 学校哪里有打印店打印材料？",
-          link: "/life/printing",
+          text: "Q66. 学校内有体育馆吗？常见的体育场所分布在哪里？",
+          link: "/life/sports",
+        },
+        {
+          text: "Q67. 学校的图书馆在哪？借阅图书的流程是什么？需要办理借书证吗？",
+          link: "/life/library",
+        },
+        {
+          text: "Q68. 学校哪里可以进行自习？",
+          link: "/life/self-study-room",
+        },
+        {
+          text: "Q69. 学校里面有猫吗？",
+          link: "/life/cats",
+        },
+        {
+          text: "Q70. 学校附近哪里方便就医？可以用医保报销吗？",
+          link: "/life/medical",
+        },
+        {
+          text: "Q71. 校医院可以进行验光吗？",
+          link: "/life/optometry",
+        },
+        {
+          text: "Q72. 学校周边有哪些推荐的娱乐场所、饭馆？",
+          link: "/life/entertainment",
+        },
+        {
+          text: "Q73. 学校附近有什么好玩的地方？",
+          link: "/life/tourism",
+        },
+        {
+          text: "Q74. 我怎么报名参加学校的一些活动？",
+          link: "/life/events",
+        },
+        {
+          text: "Q75. 我的身份证到期了怎么办？",
+          link: "/life/id-card",
+        },
+        {
+          text: "Q76. 如何找一个男朋友/女朋友？",
+          link: "/life/romance",
+        },
+        {
+          text: "Q77. 如何处理无法挽回的破碎的宿舍关系？怎么更换你的宿舍？怎么让别人更换宿舍？",
+          link: "/life/dormitory-relationship",
+        },
+      ],
+    },
+    {
+      text: "学科竞赛篇",
+      collapsed: true,
+      link: "/contest/",
+      items: [
+        {
+          text: "Q78. “基地”是什么？我没有基础可以报名吗？",
+          link: "/contest/base",
+        },
+        {
+          text: "Q79. “四六级”什么时候考试？大一学生可以报名吗？",
+          link: "/contest/cet",
+        },
+        {
+          text: "Q80. 普通话等级考试”什么时候进行？",
+          link: "/contest/putonghua",
+        },
+        {
+          text: "Q81. “大创”是什么？大一学生可以参加吗？",
+          link: "/contest/dachuang",
+        },
+        {
+          text: "Q82. “萌创”是什么？大一学生可以参加吗？",
+          link: "/contest/mengchuang",
+        },
+        {
+          text: "Q83. 英语竞赛是什么？怎么报名参加？",
+          link: "/contest/neccs",
+        },
+        {
+          text: "Q84. “互联网+”是什么？",
+          link: "/contest/internet-plus",
+        },
+        {
+          text: "Q85. 大学生数学竞赛是什么？",
+          link: "/contest/math",
+        },
+        {
+          text: "Q86. 大学生数学建模竞赛是什么？学校有校赛吗？",
+          link: "/contest/math-modeling",
+        },
+        {
+          text: "Q87. “三航杯”是什么？",
+          link: "/contest/sanhang-cup",
         },
       ],
     },
