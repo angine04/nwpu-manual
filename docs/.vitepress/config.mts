@@ -57,8 +57,10 @@ export default defineConfig({
       {
         text: "正文",
         link: "/foreword",
-        activeMatch: "/foreword|admission|study|organization|life|contest|transportation/",
+        activeMatch: "/foreword|admission|study|organization|life|contest|transportation|warning/",
       },
+      { text: "鸣谢", link: "/credits" },
+      { text: "附件", link: "/attachment" },
       // {
       //   text: "录取入学篇",
       //   link: "/admission/query-admission-status",

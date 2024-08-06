@@ -1,8 +1,10 @@
 export function sidebarSettings() {
   return [
     {
+      items: [{ text: "修订说明", link: "/changelog" }],
+    },
+    {
       items: [
-        { text: "修订说明", link: "/changelog" },
         {
           text: "Q0. 本篇指南内容涉及哪些方面？主要面向对象是谁？",
           link: "/foreword",
@@ -417,6 +419,15 @@ export function sidebarSettings() {
           link: "/transportation/proof",
         },
       ],
+    },
+    {
+      items: [{ text: "最后的几点提醒", link: "/warning" }],
+    },
+    {
+      items: [{ text: "鸣谢", link: "/credits" }],
+    },
+    {
+      items: [{ text: "附件", link: "/attachment" }],
     },
   ];
 }
