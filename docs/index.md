@@ -16,7 +16,7 @@ hero:
       link: /foreword
     - theme: alt
       text: 下载PDF版
-      link: /attachment/瓜兵速成指南（2024年版）-洛璃&《瓜兵速成指南》修订小组.pdf
+      link: /attachment/瓜兵速成指南（2024年版）（主体部分）-洛璃&《瓜兵速成指南》修订小组.pdf
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
