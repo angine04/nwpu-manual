@@ -25,6 +25,18 @@ if (process.env.NODE_ENV === "production") {
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "ng8z2whajn");`,
     ],
+    [
+      "script",
+      { type: "text/javascript" },
+      `window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };`,
+    ],
+    [
+      "script",
+      {
+        defer: "",
+        src: "/_vercel/insights/script.js",
+      },
+    ],
   ];
 } else {
   headSettings = [
@@ -57,7 +69,8 @@ export default defineConfig({
       {
         text: "正文",
         link: "/foreword",
-        activeMatch: "/foreword|admission|study|organization|life|contest|transportation|warning|/",
+        activeMatch:
+          "/foreword|admission|study|organization|life|contest|transportation|warning|/",
       },
       { text: "鸣谢", link: "/credits" },
       { text: "附件", link: "/attachment" },
